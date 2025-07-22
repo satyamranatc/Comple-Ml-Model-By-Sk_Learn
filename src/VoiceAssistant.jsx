@@ -234,6 +234,7 @@ const ProfessionalVoiceAI = () => {
     setIsSpeaking(true);
     
     // Using ElevenLabs API
+    // New One = sk_a106cc5a0a4f70a578cd02f9410490e812ad0474143e2bec
       const apiKey = 'sk_309ec6cb402c9c82d37771e4e7db0018e244f123752c4cc1';
       const voiceId = 'M7w7Nrg0qw7vkKGD4cYu';
 
@@ -394,7 +395,7 @@ const ProfessionalVoiceAI = () => {
                 <Zap className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-semibold text-white">Voice Assistant</h1>
+                <h1 className="text-xl font-semibold text-white">MentorVerse</h1>
                 <p className={`text-sm ${
                   continuousMode ? 'text-green-400' : 'text-gray-400'
                 }`}>
